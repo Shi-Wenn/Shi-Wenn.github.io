@@ -2,17 +2,26 @@
 title: 使用 Obsidian+github搭建博客的要点
 date: 2025-02-01
 categories:
-  - 学习笔记
+  - 探索笔记
 tags:
   - 软件工具
   - Obsidian
+  - Github
+  - Workflow
+  - 个人博客搭建
 ---
 
-### 想要实现的目标
+### 需求目标
 
-本地写 Obsidian → 推送 GitHub → 自动成博客。
+自从有道云笔记开始限制登录设备数量，我一直想转移阵地，作为一个笔记重度用户，信赖写下的东西胜过自己的脑子。被 Obsidian 强大的插件和 md 的灵活性吸引，终于想法设法导出了全部内容。既有工具，又怎么能忍住不用，跃跃欲试想要建个既能自己本地创作存储，又方便分享的工作流。设想中的需求包含以下几项：
 
-实际可实现的流程是：在 Obsidian 写 Markdown 文档，用 GitHub Desktop 提交文件自动同步到博客仓库，GitHub Pages + Jekyll（静态站点生成器 Jekyll）自动生成网页，博客自动更新。
+第一，必须能够本地存储，我已经受够了有道云笔记的封闭，用各种方法限制迁移，难以以开放性格式导出，这是我放弃它转向开源的 Obsidian的主要原因。
+
+第二，同时我又希望将自己的文章可以跟有相似兴趣的伙伴分享，这就需要将内容上传云端。
+
+第三，我期望这个编辑和发布的流程尽可能简单，保证数据安全的同时也要能够方便的修改。经过和AI的讨论决定用以下流程搭建自己的博客创作工作流。
+
+ 最终确定选用的工具和基本流程是：在 Obsidian 写 Markdown 文档，用 GitHub Desktop 提交文件自动同步到博客仓库，GitHub Pages + Jekyll（静态站点生成器，github 自带）自动生成网页，博客自动更新。
 
 ---
 
@@ -22,7 +31,7 @@ tags:
 
 - GitHub Desktop： github 的图形化界面客户端软件，负责将 Obsidian 更新的内容推送到 github
 
-- GitHub Pages 是 github 自带的功能，原生支持 Jekyll（静态网站生成器 Jekyll），可以将仓库内容自动部署并发布为静态博客
+- GitHub Pages 是 github 自带的功能，原生支持 Jekyll，可以将仓库内容自动部署并发布为静态博客
 
 ---
 

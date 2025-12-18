@@ -5,7 +5,8 @@ categories:
   - 提示词创作
 tags:
   - Prompt
-  - 学习辅助
+  - 高效学习
+  - AI
 ---
 
 #### 说明
