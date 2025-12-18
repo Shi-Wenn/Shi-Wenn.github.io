@@ -35,9 +35,8 @@ CLI 工具依赖 Node.js 运行环境。
 
 _注：这里推荐使用开源社区维护的 `gemini-chat-cli`，它功能稳定且交互友好。_
 
-Bash
 
-```
+```bash
 npm install -g gemini-chat-cli
 ```
 
@@ -57,9 +56,7 @@ API Key 是调用 Google 服务的授权凭证。
 
 为了防止密钥泄露，也不建议每次使用时手动输入，可以通过“环境变量”将其配置到系统中：
 
-Bash
-
-```
+```bash
 # 将 YOUR_API_KEY_HERE 替换为你实际的密钥
 export GEMINI_API_KEY="YOUR_API_KEY_HERE"
 ```
@@ -74,9 +71,7 @@ export GEMINI_API_KEY="YOUR_API_KEY_HERE"
 
 1. 临时生效（仅当前窗口有效）：
 
-Bash
-
-```
+```bash
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
@@ -90,9 +85,8 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 
 配置完成后，使用以下命令测试连通性。如果返回国外 IP 地址，即表示配置成功。
 
-Bash
 
-```
+```bash
 curl --socks5 127.0.0.1:7890 cip.cc
 ```
 
