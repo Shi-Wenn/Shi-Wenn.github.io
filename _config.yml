@@ -14,12 +14,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 如是所文 # the main title
+title: 时有所文 # the main title
 
-tagline: let beings be # it will display as the subtitle
+tagline: 不定时更新学习笔记和生活随笔. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  不定时更新学习笔记和生活随笔.
+  低代码模式下的 AI 实践探索和心理学背景的内容创作.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-QX21W4E3RZ # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
