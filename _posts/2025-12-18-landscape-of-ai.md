@@ -2,7 +2,7 @@
 title: 2025 AI 行业全景图谱
 date: 2025-12-01
 categories:
-  - 笔记
+  - AIGC
 tags:
   - 大模型
   - AI前沿思考

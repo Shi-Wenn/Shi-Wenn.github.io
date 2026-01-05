@@ -2,7 +2,7 @@
 title: 我常用的 Obsidian 设置和插件（持续更新中）
 date: 2025-04-01
 categories:
-  - 学习笔记
+  - 效率工具
 tags:
   - 软件工具
   - Obsidian

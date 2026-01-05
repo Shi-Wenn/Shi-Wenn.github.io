@@ -2,7 +2,7 @@
 title: Gemini CLI 从部署到使用
 date: 2025-11-25
 categories:
-  - AI 探索
+  - AIGC
 tags:
   - 软件工具
   - Gemini

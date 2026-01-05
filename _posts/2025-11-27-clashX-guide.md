@@ -2,7 +2,7 @@
 title: 使用网络代理软件必须了解的概念——以 clashX 为例
 date: 2025-03-01
 categories:
-  - 笔记
+  - 实践笔记
 tags:
   - 软件工具
   - 网络技术

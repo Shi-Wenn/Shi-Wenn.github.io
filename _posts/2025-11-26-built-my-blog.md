@@ -2,7 +2,7 @@
 title: 使用 Obsidian+github搭建博客的要点
 date: 2025-02-01
 categories:
-  - 探索笔记
+  - 实践笔记
 tags:
   - 软件工具
   - Obsidian
