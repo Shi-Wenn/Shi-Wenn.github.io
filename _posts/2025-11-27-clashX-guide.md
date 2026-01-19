@@ -28,7 +28,8 @@ tags:
 3. **混合代理端口 7890**：
     - 这是给一些不听“系统代理”指挥的软件（比如 终端命令行、某些专业软件）留的“后门”。普通用户通常不需要关心，只要知道它是默认端口即可。
 
-![example](/assets/images/Pasted image 20251202204922.png)
+![](../assets/images/Pastedimage20251202204922.png)
+
 
 ---
 
@@ -41,7 +42,7 @@ tags:
 
 **总结：** 一般不需要动这里，这是机场（订阅提供商）预设好的。只需要知道，**这里决定了流量的去向分类**。
 
-![example](/assets/images/Pasted image 20251202205133.png)
+![example](/assets/images/Pastedimage20251202205133.png)
 
 ---
 
@@ -60,7 +61,7 @@ tags:
     - **DIRECT：** 意思是不走代理，直接连接。
     - **REJECT：** 意思是拦截（通常用于去广告）。
 
-![example](/assets/images/Pasted image 20251202205223.png)
+![example](/assets/images/Pastedimage20251202205223.png)
 
 ---
 
@@ -76,7 +77,7 @@ tags:
     - 如果访问百度却走了美国节点（导致很慢），说明规则可能误判了。
     - 如果发现某网站后面写着 `DIRECT` 但打不开，说明这网站可能被墙了，但规则把它当成了国内网站。
 
-![example](/assets/images/Pasted image 20251202205413.png)
+![example](/assets/images/Pastedimage20251202205413.png)
 
 ---
 

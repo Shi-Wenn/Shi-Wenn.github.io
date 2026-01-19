@@ -14,7 +14,7 @@ tags:
 
 为了让你在产品爆炸的时代不迷路，我们梳理了这份**2025 AI 行业全景图谱**。
 
-![](assets/images/Pasted%20image%2020251225221851.png)
+![](../assets/images/Pasted%20image%2020251225221851.png)
 
 ---
 
